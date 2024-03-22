@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="script.cpp" />
+    <ClCompile Include="nativemenu.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="script.h" />
+    <ClInclude Include="..\..\inc\enums.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\natives.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\types.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\main.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="nativemenu.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{01003403-edd6-4e4a-bd3e-ec357957d5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="menu">
+      <UniqueIdentifier>{103968eb-e151-4639-ac6f-1f258f6c55f6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
