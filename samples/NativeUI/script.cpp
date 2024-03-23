@@ -21,7 +21,7 @@ namespace submenus
 	void DemoMenu()
 	{
 		nativemenu.DrawTitle("Demo");
-		nativemenu.DrawSubtitle("Press on a option");
+		nativemenu.DrawSubtitle("Press on an option");
 		nativemenu.AddItem("Test", "This option does nothing");
 		nativemenu.AddCheckboxItem("Demo Bool", demo);
 		nativemenu.AddBuyableItem("Test Buy", 1000, [] { nativemenu.PostObjective("You bought something!"); });
